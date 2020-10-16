@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+.header_logo {
+  height: 40px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+.header_left {
+  display: flex;
+  align-items: center;
+}
+.header_mid {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  border: 1px solid lightgrey;
+}
+.header_right {
+  display: flex;
+  align-items: center;
+}
+.header_mid > input {
+  flex: 1;
+  border: none;
+}
+.header_mid > input:focus {
+  outline: none;
+}
+.header_inputbutton {
+  width: 50px !important;
+  background-color: #fafafa;
+  color: gray;
+  border-left: 1px solid slategray;
+}
+.header_icon {
+  margin-right: 8px;
+}
